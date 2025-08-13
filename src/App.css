@@ -10,7 +10,7 @@
 
 /* For background */
 .main{
-  background-image: url("bg4.png");
+  background-image: url("/bg4.png");
   background-size: contain;
   background-repeat: repeat;
   background-position: center;

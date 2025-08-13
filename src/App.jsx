@@ -1,4 +1,4 @@
-import About from './about';
+import About from './About';
 import './App.css'
 import Footer from './Footer';
 import Navbar from './Navbar';

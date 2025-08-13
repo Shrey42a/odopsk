@@ -13,7 +13,7 @@ function Navbar() {
             <div className="h-full cursor-pointer">
                 <Link to="/"><img src='/logo.png' className='h-full w-full'></img></Link>
             </div>
-            <h1 className='fnt2 hidden lg:block text-2xl'>HAPPY INDEPENDENCE DAY</h1>
+            <div className='fnt2 hidden lg:block space-x-4 text-2xl tracking-widest'><span>HAPPY</span> <span>INDEPENDENCE</span><span>DAY</span></div>
             <div className='p-2 hidden lg:block md:block'>
                 <ul className='text-md flex font-bold uppercase space-x-4 flex-row justify-evenly text-neutral-600'>
                     <Link to="/about"><li className='hover:text-neutral-700 hover:transition hover:ease-in-out cursor-pointer'>About</li></Link>

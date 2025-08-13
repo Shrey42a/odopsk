@@ -1,5 +1,3 @@
-import React from "react";
-
 function Product(){
     return(
         <>
@@ -56,7 +54,6 @@ function Product(){
              </div>
              </div>
          </div>
-         {/* https://www.khurjapotteryhub.com/ */}
         </>
     )
 }

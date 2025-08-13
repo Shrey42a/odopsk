@@ -1,9 +1,18 @@
 @import "tailwindcss";
 
-
+/* For Heading */
 .txt {
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+}
+
+/* For background */
+.main{
+  background-image: url("bg4.png");
+  background-size: contain;
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed;
 }

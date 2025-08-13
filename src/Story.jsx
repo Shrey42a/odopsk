@@ -1,13 +1,8 @@
-import React from "react";
-
-const Story = () => {
+function Story() {
   return (
     <section className="h-max p-2 mt-2 w-full flex flex-col space-y-8 lg:space-x-4 justify-center items-center">
       <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-3xl font-bold text-gray-800 mb-6">
-          The Story of Khurja Pottery
-        </h2>
-
+        <h2 className="text-3xl font-bold text-gray-800 mb-6">The Story of Khurja Pottery</h2>
         <p className="text-lg text-gray-600 leading-relaxed mb-8">
           Khurja, a small town in Bulandshahr district of Uttar Pradesh, is
           famously known as the “Ceramics City of India”. Its pottery tradition

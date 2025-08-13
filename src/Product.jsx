@@ -1,7 +1,7 @@
 function Product(){
     return(
         <>
-         <div className="h-max mt-20 w-full flex flex-col space-y-8 lg:space-x-4 justify-center items-center">
+         <div className="h-max mt-20 w-full flex flex-col space-y-8 backdrop-blur-xs lg:space-x-4 justify-center items-center">
              <h1 className="txt text-4xl text-zinc-700">Product Gallery</h1>
              <div className="w-full flex flex-wrap gap-2 lg:gap-4 items-center justify-center">
              <div className="flex shadow-lg hover:shadow-xl transition-shadow flex-col items-center justify-center text-start rounded-md overflow-hidden">

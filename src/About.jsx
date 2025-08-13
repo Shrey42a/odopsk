@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 function About() {
     return (
         <>
-            <div className='w-full min-h-screen max-h-max'>
+            <div className='w-full main2 min-h-screen max-h-max'>
                 <div className='min-h-screen max-h-max w-full p-2 pt-4 bg-white/60 backdrop-blur-sm flex flex-col space-y-4 items-center justify-start'>
                     <div className='w-full text-lg text-center fnt5 lg:w-4/5 h-max rounded-2xl flex flex-col items-center justify-start'>
                        <h1 className='text-2xl font-semibold fnt3'>About me</h1>

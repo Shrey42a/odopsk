@@ -8,11 +8,41 @@
   font-style: normal;
 }
 
+.fnt2 {
+  font-family: 'Monoton', cursive;
+  background: #ff6600;
+  background: linear-gradient(90deg,rgba(255, 102, 0, 1) 0%, rgba(81, 52, 246, 0.47) 50%, rgba(64, 255, 0, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-filter: drop-shadow(8px 8px 3px #000000);
+  filter: drop-shadow(8px 8px 3px #ff8400);
+}
+
+.txt2 {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  background: #ff6600;
+background: linear-gradient(90deg,rgba(255, 102, 0, 1) 0%, rgba(81, 52, 246, 0.47) 50%, rgba(64, 255, 0, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* For background */
 .main{
-  background-image: url("/bg4.png");
-  background-size: contain;
-  background-repeat: repeat;
+  background-image: url("/bg6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.main2{
+  background-image: url("/bg5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
 }

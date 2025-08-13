@@ -13,10 +13,8 @@ function Sidenav({ xyz }) {
           <li className='active:text-lime-400 active:transition active:ease-in-out p-1 w-max rounded-lg cursor-pointer'><Link to="/" onClick={xyz}>Home</Link></li>
           <li className='active:text-lime-400 active:transition active:ease-in-out p-1 w-max rounded-lg cursor-pointer'><Link to="/about" onClick={xyz}>About</Link></li>
         </ul>
-        <div className='w-full space-y-4 mt-4 flex flex-col items-center justify-center'>
-          <h1 className='font-mono'>Thanx for visit ODOP..</h1>
-        </div>
-        <img src='/min.webp' className='h-20 w-full' />
+        <img src="/sd.png" className='h-36 w-full' />
+        <h1 className='txt2 text-sm'>HAPPY INDEPENDENCE DAY 15th August</h1>
       </div>
       <div className="max-w-6xl mx-auto px-6 text-center">
         <p className="text-lg font-semibold">Bulandshahr District, Uttar Pradesh</p>
